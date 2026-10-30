@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Welcome to DeezlyFindr Express App</h1>
+    <p>Deezly Web Streaming</p>
+    <nav id="status">
+    </nav>
+    <div id="login-section" hidden>
+        <h2>Login</h2>
+        <form id="login-form" action="/login" method="post">
+            <label for="username">Username</label>
+            <input id="username" name="username" autocomplete="username" required>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required>
+            <label><input type="checkbox" name="rememberMe"> Remember me</label>
+            <button type="submit">Log in</button>
+            <a href="projects.html"></a>
+        </form>
+        <p>New here? <a href="/register">Create an account</a></p>
+        <p id="login-message" role="status"></p>
+    </div>
+
+    <button id="logout-button" type="button" hidden>Log out</button>
+    <br>
+    <div class="mainlinks">
+        <a href="/projects.html">Projects</a>
+        <a href="/guestbook">Guestbook</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/space">Space</a>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script src="./server.js"></script>
+</body>
+
+</html>

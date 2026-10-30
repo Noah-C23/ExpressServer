@@ -1,0 +1,30 @@
+[
+  {
+    "id": "e445d23f-8938-4626-91c0-afacb94230cc",
+    "username": "nckc",
+    "passwordHash": "$2b$12$ME0.4pMP23Q3uv5MIQPCe.Et3aUOPcANpT5PpP5OsjIXCuQ8k18b2",
+    "role": "user",
+    "createdAt": "2026-10-23T13:31:29.180Z"
+  },
+  {
+    "id": "dde9555a-2d06-41e1-b4ae-8c75a5c953b8",
+    "username": "admin444",
+    "passwordHash": "$2b$12$ljc5RbPu1e4LHarOTtWtTektfN9s7YiBljjT8qAuW97IqH4nC4rgW",
+    "role": "admin",
+    "createdAt": "2026-10-26T12:32:21.795Z"
+  },
+  {
+    "id": "da9d28b0-e456-4161-96b6-b78ffd6191d6",
+    "username": "new",
+    "passwordHash": "$2b$12$fAtzPw1WXCM3d0o9kowxj.JW4hsqgsRrHwtmi/tlRWvMwX3wKt2EO",
+    "role": "user",
+    "createdAt": "2026-10-26T13:18:52.179Z"
+  },
+  {
+    "id": "60d13eef-ae28-4647-8c9d-c749dfb10191",
+    "username": "spambot",
+    "passwordHash": "$2b$12$Xy7RZvkzxt2NtyWdW8XdmOCiJUVLAMvfJAFLwaUdYtrd5DaQ0k/jq",
+    "role": "user",
+    "createdAt": "2026-10-28T12:27:41.718Z"
+  }
+]
